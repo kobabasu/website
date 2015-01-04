@@ -86,7 +86,7 @@ module.exports = (grunt) ->
             name: 'styledocco'
           name: '<%= pkg.name %>'
         files: {
-          'public/doc/css': 'public/static/css/style.css'
+          'public/doc/css': 'public/assets/css/style.css'
         }
 
     clean:
@@ -96,14 +96,14 @@ module.exports = (grunt) ->
     imagemin:
       files: {
         expand: true,
-        cwd: 'public/static/img/src',
+        cwd: 'public/assets/img/src',
         src: '**/*.{png,jpg,gif}',
-        dest: 'public/static/img'
+        dest: 'public/assets/img'
       }
       
     csso:
       files: {
-        'public/static/css/style.css': 'public/static/css/style.css'
+        'public/assets/css/style.css': 'public/assets/css/style.css'
       }
 
     esteWatch:

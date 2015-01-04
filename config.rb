@@ -5,10 +5,10 @@ http_path       = "/"
 project_path    = "public/"
 sass_dir        = "../sass"
 cache_dir       = "../.sass-cache"
-css_dir         = "static/css"
+css_dir         = "assets/css"
 javscripts_dir  = "js"
-images_dir      = "static/img"
-fonts_dir       = "static/font"
+images_dir      = "assets/img"
+fonts_dir       = "assets/font"
 
 # output_style
 # if something wrong with csso enable line below to use compass compression
