@@ -4,7 +4,7 @@ coverage
 
 public/vendor/*
 public/js/*
-public/static/*
+public/assets/*
 public/doc/*
 public/test/*
 public/spec/*
